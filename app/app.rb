@@ -1,5 +1,6 @@
 require 'sinatra/base'
-require './app/models/link.rb'
+require './lib/data_mapper_setup'
+
 
 class Bookmark_manager < Sinatra::Base
   get '/' do
