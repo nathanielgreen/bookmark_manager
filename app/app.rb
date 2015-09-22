@@ -1,4 +1,5 @@
 require 'sinatra/base'
+require './app/models/link.rb'
 
 class Bookmark_manager < Sinatra::Base
   get '/' do
@@ -11,7 +12,7 @@ class Bookmark_manager < Sinatra::Base
   end
 
   get '/links/new' do
-    
+
   end
 
   # start the server if ruby file executed directly
